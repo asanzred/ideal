@@ -1,5 +1,5 @@
 {
-    "name": "Asanzred/Ideal",
+    "name": "asanzred/ideal",
     "type": "library",
     "description": "iDeal PSP provider wrapper for Laravel 5",
     "keywords": [
