@@ -4,8 +4,6 @@
 [![Software License][ico-license]](LICENSE.md)
 [![Total Downloads][ico-downloads]][link-downloads]
 
-For Laravel 5 version look at [asanzred/kount][link-laravel5]
-
 ## Install
 
 Via Composer
@@ -101,4 +99,4 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [link-downloads]: https://packagist.org/packages/asanzred/ideal
 [link-author]: https://github.com/asanzred
 [link-contributors]: ../../contributors
-[link-laravel5]: https://github.com/asanzred/kount
+
