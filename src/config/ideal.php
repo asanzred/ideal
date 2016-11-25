@@ -15,5 +15,6 @@ return array(
     'merchant_priv_key'            => '',
     'merchant_priv_key_passwd'     => '',
     'merchant_return_url'          => '',
-    'merchant_issuer'              => ''
+    'merchant_issuer'              => '',
+    'cacert'                       => ''
 );
