@@ -186,6 +186,11 @@ class IDeal
             'Content-Type: text/xml; charset=UTF-8'
         ));
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+
+        if(Config::get('ideal.cacert') != ''){
+          curl_setopt($curl, CURLOPT_CAINFO, Config::get('ideal.cacert'));
+        }
+
         if ($this->verification === false) {
             curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
         }
@@ -195,6 +200,12 @@ class IDeal
         }
 
         $response = curl_exec($curl);
+
+        if($errno = curl_errno($curl)) {
+             $error_message = curl_strerror($errno);
+             throw new \Exception('Curl error ('.$errno.') -> '.$error_message, 1);
+             
+        }
 
         if ($this->proxyUrl != null) {
             // Clear up proxy response:
