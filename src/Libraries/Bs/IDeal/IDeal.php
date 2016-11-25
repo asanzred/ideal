@@ -6,6 +6,7 @@ use Asanzred\Ideal\Libraries\Bs\IDeal\Exception;
 use Asanzred\Ideal\Libraries\Bs\IDeal\Request;
 use Asanzred\Ideal\Libraries\Bs\IDeal\Response;
 use \DOMDocument;
+use \Config;
 use Asanzred\Ideal\Libraries\Xmlsec\XMLSecurityDSig;
 use Asanzred\Ideal\Libraries\Xmlsec\XMLSecurityKey;
 
