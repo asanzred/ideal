@@ -285,10 +285,8 @@ class XMLSecurityKey {
                     /* Load the thumbprint if this is an X509 certificate. */
                     $this->X509Thumbprint = self::getRawThumbprint($this->key);
                 }
-                \Log::error('llego');
                 $this->key = openssl_get_publickey($this->key);
             } else {
-                \Log::error('llego2');
                 $this->key = openssl_get_privatekey($this->key, $this->passphrase);
             }
         } else if ($this->cryptParams['cipher'] == MCRYPT_RIJNDAEL_128) {

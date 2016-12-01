@@ -69,7 +69,6 @@ class IDeal
         $this->merchantPrivateKey = new XMLSecurityKey(XMLSecurityKey::RSA_SHA256, ['type' => 'private']);
         $this->merchantPrivateKey->passphrase = $passphrase;
         $this->merchantPrivateKey->loadKey($key, $isFile);
-        \Log::error(print_r($this->merchantPrivateKey,true));
     }
 
     public function setMerchantCertificate($key, $isFile = true)
