@@ -16,5 +16,6 @@ return array(
     'merchant_priv_key_passwd'     => '',
     'merchant_return_url'          => '',
     'merchant_issuer'              => '',
+    'issuer_country'               => '',
     'cacert'                       => ''
 );
