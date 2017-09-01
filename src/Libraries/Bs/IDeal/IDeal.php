@@ -207,6 +207,8 @@ class IDeal
              
         }
 
+        curl_close($curl);
+        
         if ($this->proxyUrl != null) {
             // Clear up proxy response:
             if (stripos($response, "HTTP/1.0 200 Connection established\r\n\r\n") !== false) {
