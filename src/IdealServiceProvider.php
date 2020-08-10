@@ -1,6 +1,6 @@
 <?php
 
-namespace Asanzred\Ideal;
+namespace Smallworldfs\Ideal;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Routing\Router;
@@ -25,7 +25,7 @@ class IdealServiceProvider extends ServiceProvider
         $this->setupRoutes($this->app->router);
         
         
-        //php artisan vendor:publish --provider="Asanzred\Ideal\IdealServiceProvider"
+        //php artisan vendor:publish --provider="Smallworldfs\Ideal\IdealServiceProvider"
         $this->publishes([
                 __DIR__.'/config/ideal.php' => config_path('ideal.php'),
         ]);
@@ -44,7 +44,7 @@ class IdealServiceProvider extends ServiceProvider
      */
     public function setupRoutes(Router $router)
     {
-        $router->group(['namespace' => 'Asanzred\Ideal\Http\Controllers'], function($router)
+        $router->group(['namespace' => 'Smallworldfs\Ideal\Http\Controllers'], function($router)
         {
             require __DIR__.'/Http/routes.php';
         });

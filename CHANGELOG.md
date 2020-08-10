@@ -1,6 +1,6 @@
 # Changelog
 
-All Notable changes to `asanzred/ideal` will be documented in this file.
+All Notable changes to `smallworldfs/ideal` will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 

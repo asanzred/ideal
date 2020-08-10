@@ -1,18 +1,18 @@
 {
-    "name": "asanzred/ideal",
+    "name": "smallworldfs/ideal",
     "type": "library",
     "description": "iDeal PSP provider wrapper for Laravel 5",
     "keywords": [
-        "Asanzred",
+        "Smallworldfs",
         "Ideal"
     ],
-    "homepage": "https://github.com/asanzred/ideal",
+    "homepage": "https://github.com/smallworldfs/ideal",
     "license": "MIT",
     "authors": [
         {
             "name": "Alberto Sanz Redondo",
             "email": "asanzred@gmail.com",
-            "homepage": "https://github.com/asanzred",
+            "homepage": "https://github.com/smallworldfs",
             "role": "Developer"
         }
     ],
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Asanzred\\Ideal\\": "src"
+            "Smallworldfs\\Ideal\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Asanzred\\Ideal\\": "tests"
+            "Smallworldfs\\Ideal\\": "tests"
         }
     },
     "scripts": {

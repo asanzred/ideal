@@ -1,6 +1,6 @@
 <?php
 
-namespace Asanzred\Ideal\Http\Controllers;
+namespace Smallworldfs\Ideal\Http\Controllers;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -10,8 +10,8 @@ use Illuminate\Http\Request;
 
 use Config;
 use Log;
-use Asanzred\Ideal\Libraries\Bs\IDeal\IDeal;
-use Asanzred\Ideal\Libraries\Bs\IDeal\Exception\ResponseException;
+use Smallworldfs\Ideal\Libraries\Bs\IDeal\IDeal;
+use Smallworldfs\Ideal\Libraries\Bs\IDeal\Exception\ResponseException;
 
 /********************************************
 

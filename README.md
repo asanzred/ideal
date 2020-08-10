@@ -1,4 +1,4 @@
-# asanzred/ideal
+# smallworldfs/ideal
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -9,7 +9,7 @@
 Via Composer
 
 ``` bash
-$ composer require asanzred/ideal
+$ composer require smallworldfs/ideal
 ```
 
 Add ServiceProvider in your `app.php` config file.
@@ -18,7 +18,7 @@ Add ServiceProvider in your `app.php` config file.
 // config/app.php
 'providers' => [
     ...
-    Asanzred\Ideal\IdealServiceProvider::class,
+    Smallworldfs\Ideal\IdealServiceProvider::class,
 ]
 ```
 
@@ -27,7 +27,7 @@ Add ServiceProvider in your `app.php` config file.
 Publish the config by running:
 
 ``` bash
-    php artisan config:publish asanzred/ideal
+    php artisan config:publish smallworldfs/ideal
 ```
 
 ## Usage
@@ -35,7 +35,7 @@ Publish the config by running:
 You can find an IdealController.php and routes.php with basic routes and calls
 
 ``` php
-use Asanzred\Ideal\Libraries\Bs\IDeal\IDeal;
+use Smallworldfs\Ideal\Libraries\Bs\IDeal\IDeal;
 
 $ideal = new IDeal(Config::get('ideal.provider_url'));
 
@@ -80,7 +80,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details
 
 ## Security
 
-If you discover any security related issues, please email asanzred@gmail.com instead of using the issue tracker.
+If you discover any security related issues, please email smallworldfs@gmail.com instead of using the issue tracker.
 
 ## Credits
 
@@ -91,12 +91,12 @@ If you discover any security related issues, please email asanzred@gmail.com ins
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/asanzred/ideal.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/smallworldfs/ideal.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/asanzred/ideal.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/smallworldfs/ideal.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/asanzred/ideal
-[link-downloads]: https://packagist.org/packages/asanzred/ideal
-[link-author]: https://github.com/asanzred
+[link-packagist]: https://packagist.org/packages/smallworldfs/ideal
+[link-downloads]: https://packagist.org/packages/smallworldfs/ideal
+[link-author]: https://github.com/smallworldfs
 [link-contributors]: ../../contributors
 
