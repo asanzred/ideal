@@ -1,11 +1,11 @@
 <?php
 
-namespace Asanzred\Ideal\Libraries\Bs\IDeal\Request;
+namespace Smallworldfs\Ideal\Libraries\Bs\IDeal\Request;
 
 // use ass\XmlSecurity\DSig;
-use Asanzred\Ideal\Libraries\Bs\IDeal\IDeal;
+use Smallworldfs\Ideal\Libraries\Bs\IDeal\IDeal;
 use \DOMImplementation;
-use Asanzred\Ideal\Libraries\Xmlsec\XMLSecurityDSig;
+use Smallworldfs\Ideal\Libraries\Xmlsec\XMLSecurityDSig;
 
 class Request
 {

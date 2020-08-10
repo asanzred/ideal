@@ -1,6 +1,6 @@
 <?php
 
-namespace Asanzred\Ideal\Libraries\Xmlsec;
+namespace Smallworldfs\Ideal\Libraries\Xmlsec;
 
 use \DOMImplementation;
 use \DOMDocument;

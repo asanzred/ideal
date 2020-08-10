@@ -1,6 +1,6 @@
 <?php
 
-namespace Asanzred\Ideal;
+namespace Smallworldfs\Ideal;
 
 class Ideal
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Asanzred\Ideal\Libraries\Bs\IDeal\Exception;
+namespace Smallworldfs\Ideal\Libraries\Bs\IDeal\Exception;
 
-use Asanzred\Ideal\Libraries\Bs\IDeal\Response\Response;
+use Smallworldfs\Ideal\Libraries\Bs\IDeal\Response\Response;
 
 class ResponseException extends IDealException
 {

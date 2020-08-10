@@ -1,6 +1,6 @@
 <?php
 
-namespace Asanzred\Ideal\Libraries\Bs\IDeal\Response;
+namespace Smallworldfs\Ideal\Libraries\Bs\IDeal\Response;
 
 class DirectoryResponse extends Response
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Asanzred\Ideal\Libraries\Bs\IDeal\Exception;
+namespace Smallworldfs\Ideal\Libraries\Bs\IDeal\Exception;
 
 class InvalidXMLException extends IDealException
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Asanzred\Ideal\Libraries\Bs\IDeal\Request;
+namespace Smallworldfs\Ideal\Libraries\Bs\IDeal\Request;
 
-use Asanzred\Ideal\Libraries\Bs\IDeal\IDeal;
+use Smallworldfs\Ideal\Libraries\Bs\IDeal\IDeal;
 
 class StatusRequest extends Request
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace Asanzred\Ideal\Libraries\Bs\IDeal;
+namespace Smallworldfs\Ideal\Libraries\Bs\IDeal;
 
-use Asanzred\Ideal\Libraries\Bs\IDeal\Exception;
-use Asanzred\Ideal\Libraries\Bs\IDeal\Request;
-use Asanzred\Ideal\Libraries\Bs\IDeal\Response;
+use Smallworldfs\Ideal\Libraries\Bs\IDeal\Exception;
+use Smallworldfs\Ideal\Libraries\Bs\IDeal\Request;
+use Smallworldfs\Ideal\Libraries\Bs\IDeal\Response;
 use \DOMDocument;
 use \Config;
-use Asanzred\Ideal\Libraries\Xmlsec\XMLSecurityDSig;
-use Asanzred\Ideal\Libraries\Xmlsec\XMLSecurityKey;
+use Smallworldfs\Ideal\Libraries\Xmlsec\XMLSecurityDSig;
+use Smallworldfs\Ideal\Libraries\Xmlsec\XMLSecurityKey;
 
 class IDeal
 {
@@ -207,6 +207,8 @@ class IDeal
              
         }
 
+        curl_close($curl);
+        
         if ($this->proxyUrl != null) {
             // Clear up proxy response:
             if (stripos($response, "HTTP/1.0 200 Connection established\r\n\r\n") !== false) {
